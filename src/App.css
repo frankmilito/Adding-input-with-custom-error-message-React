@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #f4f4f4;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  margin: 2em;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  flex-direction: column;
+}
+
+.course-main {
+  box-shadow: 0 8px 5px #ccc;
+  border-radius: 10px;
+  padding: 3rem 1.5rem 2rem;
+  width: 520px;
+  background-color: #fff;
+  margin-bottom: 2rem;
+}
+
+.course-main input {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px 5px;
+  outline: none;
+}
+.course-main.error input {
+  background-color: rgb(255, 191, 191);
+  border: 1px solid red;
+}
+.red {
+  border: 2px solid red;
+}
+.btn {
+  font-size: 17px;
   color: white;
+  padding: 8px 20px;
+  background-color: #a1005e;
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
+h3 {
+  padding: 10px 20px;
+  background-color: #a1005e;
+  color: #fff;
+  width: 520px;
+  font-weight: lighter;
+  margin: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.course-main.error h1 {
+  color: red;
 }
