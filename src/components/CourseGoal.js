@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import CourseItems from './CourseItems'
 
+import Button from './Button'
 const initialState = [
   {
     id: 1,
@@ -41,9 +42,7 @@ function CourseGoal() {
         <div className={`course-main  ${error && 'error'}`}>
           <h1>Course Goal</h1>
           <input value={title} onChange={handleOnchange} type="text" />
-          <button type="submit" className="btn" onClick={handleClick}>
-            Add Goal
-          </button>
+          <Button handleClick={handleClick}>Add Goal</Button>
         </div>
         {todos.map(todo => (
           <CourseItems todo={todo} handleDelete={handleDelete} />
