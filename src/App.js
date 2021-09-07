@@ -1,12 +1,7 @@
 import './App.css'
-import CourseGoal from './components/CourseGoal'
 
 function App() {
-  return (
-    <div className="App">
-      <CourseGoal />
-    </div>
-  )
+  return <div className="App"></div>
 }
 
 export default App
