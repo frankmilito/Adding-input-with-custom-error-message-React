@@ -16,8 +16,13 @@
 .container input {
   padding: 10px 15px;
   width: 100%;
+  outline: none;
 }
 
+.container.danger input {
+  border: 1px solid red;
+  background-color: #f8c1bb;
+}
 .container button {
   padding: 8px 15px;
   outline: none;

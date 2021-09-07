@@ -32,7 +32,7 @@ function FormInput() {
   return (
     <>
       <div className={styles.wrapper}>
-        <div className={styles.container}>
+        <div className={`${styles.container} ${valid && styles.danger}`}>
           <label>Username</label>
           <input onChange={handleName} value={name} type="text" />
           <label>Age (Years)</label>
