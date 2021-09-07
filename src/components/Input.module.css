@@ -1,0 +1,38 @@
+.container {
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.container label {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px 0;
+}
+.container input {
+  padding: 10px 15px;
+  width: 100%;
+}
+
+.container button {
+  padding: 8px 15px;
+  outline: none;
+  border: none;
+  color: #fff;
+  background-color: #480458;
+  margin: 10px 0;
+  width: 25%;
+}
+
+.wrapper {
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 15px;
+  border-radius: 5px;
+}

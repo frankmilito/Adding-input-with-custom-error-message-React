@@ -1,0 +1,11 @@
+.items {
+  background-color: #fff;
+  margin: 2em 0;
+  width: 420px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.items h1 {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
